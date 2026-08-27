@@ -1,0 +1,19 @@
+[toolchain]
+anchor_version = "0.31.1"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.mainnet]
+pvi = "7PKXznczrtwCSSYqMEhgFjvJqxpnpgGMZUX4RTy3XVgb"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Mainnet"
+wallet = "~/.config/solana/pvi-deployer.json"
+
+[workspace]
+members = ["programs/pvi"]
